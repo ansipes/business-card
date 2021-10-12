@@ -117,4 +117,16 @@ header img.avatar {
 .card a {
   color: #393939;
   text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 0.35rem;
+  border-radius: 0.5rem;
+}
+
+.card a:hover {
+  background: #efefef;
+}
+
+.card a:active {
+  background: #dedede;
 }
